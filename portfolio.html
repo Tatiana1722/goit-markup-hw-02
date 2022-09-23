@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -19,15 +19,19 @@
         <a href="/index.html" class="main-logo"
           >Web<span class="main-logo-span">Studio</span></a
         >
-        <ul>
-          <li><a href="./index.html" class="header-link">Студія</a></li>
+        <ul class="main-nav">
+          <li>
+            <a href="./index.html" class="header-link">Студія</a>
+          </li>
           <li>
             <a href="./portfolio.html" class="header-link-current">Портфоліо</a>
           </li>
-          <li><a href="" class="header-link">Контакти</a></li>
+          <li>
+            <a href="" class="header-link">Контакти</a>
+          </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="main-contacts">
         <li>
           <a href="mailto:info@devstudio.com" class="header-contacts"
             >info@devstudio.com</a
@@ -43,7 +47,7 @@
     <main>
       <section>
         <h1>Приклади робіт</h1>
-        <ul>
+        <ul class="projects-nav">
           <li>
             <button type="button" class="projects-button-nav">Усі</button>
           </li>
@@ -60,7 +64,7 @@
             <button type="button" class="projects-button-nav">Маркетинг</button>
           </li>
         </ul>
-        <ul>
+        <ul class="projects-example">
           <li>
             <img
               src="./images/технохряк.jpg"
@@ -68,8 +72,8 @@
               width="370"
               height="294"
             />
-            <h2 class="projects-h">Технохряк</h2>
-            <p class="projects-p">Веб-сайт</p>
+            <h2 class="projects-title">Технохряк</h2>
+            <p class="projects-text">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -78,8 +82,8 @@
               width="370"
               height="294"
             />
-            <h2 class="projects-h">Постер New Orlean vs Golden Star</h2>
-            <p class="projects-p">Дизайн</p>
+            <h2 class="projects-title">Постер New Orlean vs Golden Star</h2>
+            <p class="projects-text">Дизайн</p>
           </li>
           <li>
             <img
@@ -88,8 +92,8 @@
               width="370"
               height="294"
             />
-            <h2 class="projects-h">Ресторан Seafood</h2>
-            <p class="projects-p">Додаток</p>
+            <h2 class="projects-title">Ресторан Seafood</h2>
+            <p class="projects-text">Додаток</p>
           </li>
           <li>
             <img
@@ -98,8 +102,8 @@
               width="370"
               height="294"
             />
-            <h2 class="projects-h">Проєкт Prime</h2>
-            <p class="projects-p">Маркетинг</p>
+            <h2 class="projects-title">Проєкт Prime</h2>
+            <p class="projects-text">Маркетинг</p>
           </li>
           <li>
             <img
@@ -108,8 +112,8 @@
               width="370"
               height="294"
             />
-            <h2 class="projects-h">Проєкт Boxes</h2>
-            <p class="projects-p">Додаток</p>
+            <h2 class="projects-title">Проєкт Boxes</h2>
+            <p class="projects-text">Додаток</p>
           </li>
           <li>
             <img
@@ -118,8 +122,8 @@
               width="370"
               height="294"
             />
-            <h2 class="projects-h">Inspiration has no Borders</h2>
-            <p class="projects-p">Веб-сайт</p>
+            <h2 class="projects-title">Inspiration has no Borders</h2>
+            <p class="projects-text">Веб-сайт</p>
           </li>
           <li>
             <img
@@ -128,8 +132,8 @@
               width="370"
               height="294"
             />
-            <h2 class="projects-h">Видання Limited Edition</h2>
-            <p class="projects-p">Дизайн</p>
+            <h2 class="projects-title">Видання Limited Edition</h2>
+            <p class="projects-text">Дизайн</p>
           </li>
           <li>
             <img
@@ -138,8 +142,8 @@
               width="370"
               height="294"
             />
-            <h2 class="projects-h">Проєкт LAB</h2>
-            <p class="projects-p">Маркетинг</p>
+            <h2 class="projects-title">Проєкт LAB</h2>
+            <p class="projects-text">Маркетинг</p>
           </li>
           <li>
             <img
@@ -148,8 +152,8 @@
               width="370"
               height="294"
             />
-            <h2 class="projects-h">Growing Business</h2>
-            <p class="projects-p">Додаток</p>
+            <h2 class="projects-title">Growing Business</h2>
+            <p class="projects-text">Додаток</p>
           </li>
         </ul>
       </section>
@@ -159,7 +163,7 @@
         >Web<span class="footer-logo-span">Studio</span></a
       >
       <address>
-        <ul>
+        <ul class="footer-nav">
           <li>
             <a
               href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
